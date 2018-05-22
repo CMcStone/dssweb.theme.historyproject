@@ -1,0 +1,2 @@
+recursive-include dssweb *
+global-exclude *pyc
