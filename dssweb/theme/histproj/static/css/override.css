@@ -187,8 +187,9 @@ i, cite, em, var, address, dfn {
 .section-front-page div#visual-portal-wrapper #portal-columns #portal-column-content.position-1\3a 4 {
     /* margin-left: -100%;
     margin-top: -215px; */
-	width: 65%;
+	width: 63%;
 	margin-left: -65%;
+	padding-left: 20px;
 }
 
 
@@ -214,6 +215,7 @@ i, cite, em, var, address, dfn {
 }
 .section-front-page div#visual-portal-wrapper #portal-columns #portal-column-two {
 	margin-left: -65%;
+	margin-top: 165px;
 }
 .front-page .portletExpand {
 	margin-left:20px;
