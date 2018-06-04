@@ -24,6 +24,9 @@ i, cite, em, var, address, dfn {
     background-color: #F0DD99 !important;
 	color: #002855;
 }
+#portal-personaltools {
+	z-index:100;
+}
 
 .borderless.gray dl.portlet dt.portletHeader{
 	background-color: #E5E9EF;
@@ -216,6 +219,12 @@ i, cite, em, var, address, dfn {
 .section-front-page div#visual-portal-wrapper #portal-columns #portal-column-two {
 	margin-left: -65%;
 	margin-top: 165px;
+}
+.section-front-page div#visual-portal-wrapper #portal-columns #portal-column-two #portletmanager-plone-rightcolumn {
+	padding-top: 120px;
+	padding-left:20px;
+	
+	
 }
 .front-page .portletExpand {
 	margin-left:20px;
