@@ -371,6 +371,10 @@ h2.headline {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-#content-core h3.plomino-accordion-header a{
+#content-core h3.plomino-accordion-header a {
 	text-decoration: none;
+}
+/* get the portlets off the front page content for edit */
+.template-edit.section-front-page div#visual-portal-wrapper #portal-columns #portal-column-two {
+    margin-top: 950px;
 }
