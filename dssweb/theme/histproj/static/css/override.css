@@ -27,6 +27,9 @@ i, cite, em, var, address, dfn {
 #portal-personaltools {
 	z-index:100;
 }
+.icon-pad img {
+    padding-right: 10px;
+}
 
 .borderless.gray dl.portlet dt.portletHeader{
 	background-color: #E5E9EF;
@@ -247,10 +250,21 @@ i, cite, em, var, address, dfn {
 dd.portletItem {
 	display:block;
 }
-/* Portlet Geeral */
+/* portlet vertical-tab  and vertical-tab events */
+.resp-tab-content.resp-tab-content-active img {
+    max-width: 150px;
+    max-height: 150px;
+}
+/* Portlet General */
 .portletFooter{
 	background-color: #a3b1b2;
+	
 }
+.portletFooter a {
+	font-weight:bold;
+	text-decoration:none;
+}
+
  .portlet a:visited, .portletFooter a:visited, a:visited {
 	 color: #002855;
 	
@@ -341,4 +355,22 @@ padding-right: 10px }
 }
 h2.headline {
     padding-bottom: .7em;
+}
+/* plomino accordion edit */
+.mceContentBody h3.plomino-accordion-header {
+	background-color: #ECD47F;
+}
+.mceContentBody .plomino-accordion-content {
+	background-color: #F8EECC;
+}
+/*plomino accordion display */
+#content-core h3.plomino-accordion-header {
+    background-color: #a3b1b2;
+    cursor: pointer;
+    margin: 0.4em 0;
+	padding-top: 5px
+	padding-bottom: 5px;
+}
+#content-core h3.plomino-accordion-header a{
+	text-decoration: none;
 }
