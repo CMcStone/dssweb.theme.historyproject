@@ -292,7 +292,9 @@ dd {
 img.tileImage {
 border: none;
 float: left;
-margin: 0 0.5em 0.5em 0;}
+margin: 0 0.5em 0.5em 0;
+padding-right: 10px;
+}
 
 .newsImageContainer {
     float: left;
@@ -404,4 +406,8 @@ h2.headline {
 color: white;
 text-decoration: none !important;
 	
+}
+
+article.tileItem {
+    margin-bottom: 10px;
 }
