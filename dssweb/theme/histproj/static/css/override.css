@@ -1,6 +1,9 @@
 i, cite, em, var, address, dfn {
     font-style: italic;
 }
+#content p, #content table, #content dl, dl.portlet p, dl.portlet {
+	font-size:1.15em;
+}
 /* working out bulleted list with left floated image */
 #parent-fieldname-text ul li {
     list-style-type: disc;
