@@ -21,7 +21,7 @@ h1 {
 	    font-family: Tahoma, Geneva, sans-serif;
 	}
 #content a:hover, dl.portlet a:hover {
-	color: #4D688C !important;
+	color: #CCD4E0 !important;
 }
 /* working out bulleted list with left floated image */
 #parent-fieldname-text ul li {
@@ -264,7 +264,7 @@ h1 {
 	/*display:none; */
 }	
 .section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .position-1\3a 2{
-	margin-left: -65%;
+	margin-left: -64%;
 	width:65%;
 	margin-top: -70px;
 }
@@ -321,7 +321,7 @@ h1 {
 }
 .section-front-page div#visual-portal-wrapper #portal-columns #portal-column-two {
 	margin-left: -65%;
-	margin-top: 125px;
+	margin-top: 160px;
 }
 .section-front-page div#visual-portal-wrapper #portal-columns #portal-column-two #portletmanager-plone-rightcolumn {
 	padding-top: 120px;
@@ -357,12 +357,15 @@ dd.portletItem {
     max-height: 150px;
 }
 /* Portlet General */
+dl.portlet {
+	font-size:95%;
+}
 dl.portlet dt {
 	background: transparent;
 }
 
 dl.portlet a:hover {
-    color: #4D688C !important;
+    color: #CCD4E0 !important;
 }
 .portletFooter{
 	background-color: #a3b1b2;
