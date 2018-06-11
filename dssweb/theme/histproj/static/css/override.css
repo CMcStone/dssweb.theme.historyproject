@@ -7,7 +7,22 @@ h1 {
 #content {
 	font-size: 100%;
 }
-
+#content .documentDescription, #content #description {
+	    font-style: normal;
+	    font-variant-ligatures: normal;
+	    font-variant-caps: normal;
+	    font-variant-numeric: normal;
+	    font-variant-east-asian: normal;
+	    font-weight: bold;
+	    font-stretch: normal;
+	    font-size: 100%;
+	    line-height: normal;
+		color:#000;
+	    font-family: Tahoma, Geneva, sans-serif;
+	}
+#content a:hover, dl.portlet a:hover {
+	color: #4D688C !important;
+}
 /* working out bulleted list with left floated image */
 #parent-fieldname-text ul li {
     list-style-type: disc;
@@ -342,6 +357,9 @@ dd.portletItem {
     max-height: 150px;
 }
 /* Portlet General */
+dl.portlet dt {
+	background: transparent;
+}
 
 dl.portlet a:hover {
     color: #4D688C !important;
@@ -380,6 +398,10 @@ dd {
 	}
 	
 	/*lead images */
+#content img.tileImage, #content div.newsImageContainer {
+	float:left;
+}
+	
 img.tileImage {
 border: none;
 float: left;
