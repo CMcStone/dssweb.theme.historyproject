@@ -35,7 +35,7 @@
         <drop css:content="link[href$='ploneKss.css']" />
         <drop css:content="link[href$='print.css']" />
         <drop css:content="link[href$='mobile.css']" />
-        <drop css:content="link[href*='base']" />
+        <!--drop css:content="link[href*='base']" /-->
         <before content="/html/head/meta" css:theme="meta[name='viewport']" />
         <before content="/html/head/base" theme="/html/head/title" />
         <replace theme='/html/head/title' content='/html/head/title' />
@@ -89,12 +89,26 @@
                     <xsl:apply-templates />
                 </xsl:copy>
             </replace>
-            <replace  css:theme="#theme-globalnav" css:content="#portal-megamenu"/>
+            <replace css:theme="#theme-globalnav" css:content="#portal-megamenu"/>
             <drop css:content="#portal-top .panels .panel-0" if-not-path="@@manage-panels" if-not="$home_page"/>
             <drop content="//div[@id='portal-megamenu']//div[not(contains(@class, 'panel-0')) and (contains(@class, 'panel-'))]" />
         </rules>
+	    <xsl:template match="//ul[@id='portal-globalnav']/@id">
+	        <xsl:attribute name="id">
+	            <xsl:text>theme-globalnav</xsl:text> 
+	        </xsl:attribute>
+	    </xsl:template>
+        <rules css:if-content="#globalnav-wrapper">
+            <replace css:content="#globalnav-wrapper" css:theme="#theme-globalnav" />
+            <after css:theme-children=".nav_center_block" css:content="#portal-globalnav-mobile"  />
+        </rules>
+        <rules if-not-content="//*[@id='globalnav-wrapper'] or //*[@id='portal-megamenu']">
+            <replace css:content="#portal-globalnav" css:theme="#theme-globalnav" />
+            <after css:theme-children=".nav_center_block" css:content="#portal-globalnav-mobile"  />
+        </rules>
         <rules css:if-not-content="#portal-megamenu">
-            <replace css:content="#portal-globalnav > li > a">
+		    
+            <!--replace css:content="#portal-globalnav > li > a">
                 <xsl:element name="a">
                     <xsl:attribute name="href"><xsl:value-of select="@href" /></xsl:attribute>
                     <xsl:attribute name="title"><xsl:value-of select="@title" /></xsl:attribute>
@@ -108,7 +122,7 @@
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:element>
-            </replace>
+            </replace-->
             <replace css:content-children="#portal-globalnav" css:theme-children="#theme-globalnav" />
             <merge attributes="class" css:content="#portal-globalnav" css:theme="#theme-globalnav" />
             <after css:theme="#theme-globalnav" css:content="#portal-globalnav-mobile" />
