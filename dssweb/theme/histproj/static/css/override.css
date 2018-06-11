@@ -23,6 +23,7 @@ i, cite, em, var, address, dfn {
 	 
 }
 #portal-globalnav li a {
+	font-size:1.2em;
 	padding: 16px 16px 8px 16px;
 	color:#fff;
 	text-decoration:none;
