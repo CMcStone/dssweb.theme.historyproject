@@ -1,6 +1,12 @@
 i, cite, em, var, address, dfn {
     font-style: italic;
 }
+h1 {
+	letter-spacing:0;
+}
+#content {
+	font-size: 100%;
+}
 
 /* working out bulleted list with left floated image */
 #parent-fieldname-text ul li {
@@ -17,6 +23,14 @@ i, cite, em, var, address, dfn {
 	height: 182px;
 	border-bottom: 5px solid #002855;
 }
+#content a:visited, dl.portlet a:visited {
+    color: #002855;
+    border-bottom: none;
+}
+#content a:link, dl.portlet a:link {
+    color: #002855;
+    border-bottom: none;
+}
 
 #portal-globalnav {
      background-color: #002855;
@@ -26,6 +40,8 @@ i, cite, em, var, address, dfn {
 	font-size:1.2em;
 	padding: 16px 16px 8px 16px;
 	color:#fff;
+	background-color:#002855;
+	border:none;
 	text-decoration:none;
 	-moz-border-radius:0 0 6px 6px;
 	  -webkit-border-radius:0 0 6px 6px;
@@ -181,6 +197,7 @@ i, cite, em, var, address, dfn {
 
 #portal-footer {
 	border-top: none;
+	background:transparent;
 }
 
 #doormat-container.columns-4 {
@@ -313,7 +330,8 @@ i, cite, em, var, address, dfn {
 .ucd-blue dl dt.portletHeader a{
 	background-color: #002855;
 	color:#fff;
-	font-size: 0.75em;
+    font-size: 0.8em;
+	letter-spacing: 0.06em;
 }
 dd.portletItem {
 	display:block;
@@ -324,6 +342,10 @@ dd.portletItem {
     max-height: 150px;
 }
 /* Portlet General */
+
+dl.portlet a:hover {
+    color: #4D688C !important;
+}
 .portletFooter{
 	background-color: #a3b1b2;
 	
@@ -331,6 +353,7 @@ dd.portletItem {
 .portletFooter a {
 	font-weight:bold;
 	text-decoration:none;
+	color: #002855;
 }
 
  .portlet a:visited, .portletFooter a:visited, a:visited {
@@ -385,6 +408,14 @@ padding-right: 10px;
 	padding-top:10px;
 	column-count:2;
 }
+#portal-footer-line .panels .panel .row .cell .content.portlet-1 dl.portlet ul.navTree .navTreeCurrentItem {
+	background:transparent;
+	border-left:none;
+	margin-left:0;
+	margin-right:0;
+}
+#portal-footer-line .panels .panel .row .cell .content.portlet-1 dl.portlet ul.navTreeLevel0 > .navTreeItem 
+    {border-bottom:none;}
 #portal-footer-line .panels .panel .row .cell .content.portlet-1 .portlet {
 	background-color:#002855;
 	
