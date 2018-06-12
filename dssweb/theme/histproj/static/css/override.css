@@ -6,6 +6,7 @@ h1 {
 }
 #content {
 	font-size: 100%;
+	margin: 0;
 }
 #content .documentDescription, #content #description {
 	    font-style: normal;
@@ -21,7 +22,7 @@ h1 {
 	    font-family: Tahoma, Geneva, sans-serif;
 	}
 #content a:hover, dl.portlet a:hover {
-	color: #CCD4E0 !important;
+	color: #335379 !important;
 }
 /* working out bulleted list with left floated image */
 #parent-fieldname-text ul li {
@@ -264,9 +265,10 @@ h1 {
 	/*display:none; */
 }	
 .section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .position-1\3a 2{
-	margin-left: -64%;
+	margin-left: -65%;
 	width:65%;
-	margin-top: -70px;
+	margin-top: -70px
+	padding-left:5px;
 }
 .section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .position-1\3a 2 .portlet-1 div dl dt {
 	display: none;
@@ -348,6 +350,9 @@ h1 {
     font-size: 0.8em;
 	letter-spacing: 0.06em;
 }
+.ucd-blue dl dt.portletHeader a:hover {
+    color: #cccccc !important; }
+
 dd.portletItem {
 	display:block;
 }
@@ -365,7 +370,7 @@ dl.portlet dt {
 }
 
 dl.portlet a:hover {
-    color: #CCD4E0 !important;
+    color: #335379 !important;
 }
 .portletFooter{
 	background-color: #a3b1b2;
@@ -595,3 +600,9 @@ article.tileItem {
 .portaltype-folder #visual-portal-wrapper #portal-columns #portal-column-content .leadImage {
 	display:none;
 }
+#content .callout, .portletStaticText .callout {
+    background: #fff;
+    padding: 1em;
+    border-left: 1em solid #5B7F95;
+    clear: both;
+    color: #002855; }
