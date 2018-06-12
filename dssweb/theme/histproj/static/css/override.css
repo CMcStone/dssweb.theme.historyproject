@@ -261,9 +261,10 @@ h1 {
 }
 .section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .position-0 { width:35%;}
 .portletStaticText.portlet-static-welcome-to-our-community {
-    padding: 15px 15px 15px 15px;
+    padding: 5px 10px 5px 10px;
 	/*display:none; */
-}	
+}
+	
 .section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .position-1\3a 2{
 	margin-left: -65%;
 	width:65%;
@@ -279,8 +280,8 @@ h1 {
 	overflow:hidden;
 	
 }
-.section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .cell .content .portlet-0 dd.portletItem	{
-	padding-top: padding: 0.1em 1em 1em 1em; }
+.section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .position-0 .portlet-0  .portletWrapper .portlet dd.portletItem	{
+     padding: 0.1em 1em 1em 1em }
 	
 
 .slideshowPortlet .portletItem{
