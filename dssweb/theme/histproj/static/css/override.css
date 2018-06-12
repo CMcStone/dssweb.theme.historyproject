@@ -261,13 +261,13 @@ h1 {
 }
 .section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .position-0 { width:35%;}
 .portletStaticText.portlet-static-welcome-to-our-community {
-    padding: 15px 15px 15px 15px;
+    padding: 10px 10px 0px 10px;
 	/*display:none; */
 }	
 .section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .position-1\3a 2{
 	margin-left: -65%;
 	width:65%;
-	margin-top: -70px
+	margin-top: -70px;
 	padding-left:5px;
 }
 .section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .position-1\3a 2 .portlet-1 div dl dt {
