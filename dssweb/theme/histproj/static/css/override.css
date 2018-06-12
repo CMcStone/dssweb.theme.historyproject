@@ -261,7 +261,7 @@ h1 {
 }
 .section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .position-0 { width:35%;}
 .portletStaticText.portlet-static-welcome-to-our-community {
-    padding: 10px 10px 0px 10px;
+    padding: 15px 15px 15px 15px;
 	/*display:none; */
 }	
 .section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .position-1\3a 2{
@@ -279,6 +279,9 @@ h1 {
 	overflow:hidden;
 	
 }
+.section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .cell .content .portlet-0 dd.portletItem	{
+	padding-top: padding: 0.1em 1em 1em 1em; }
+	
 
 .slideshowPortlet .portletItem{
 		margin: 0;
@@ -540,6 +543,26 @@ text-decoration: none !important;
 article.tileItem {
     margin-bottom: 10px;
 }
+.portaltype-folder #visual-portal-wrapper #portal-columns #portal-column-content .leadImage {
+	display:none;
+}
+#content .callout, .portletStaticText .callout {
+    background: #fff;
+    padding: 1em;
+    border-left: 1em solid #5B7F95;
+    clear: both;
+    color: #002855; }
+.minTopPad {
+	padding: 0.2em 1em 1em 1em
+	
+}
+/* hide timezone in event portlet */
+.portletEvents .portletItem .portletItemDetails span:first-of-type {
+	display:none;
+}
+.state-published {
+	color:#002855 !important;
+}
 @media screen and (min-width: 768px) {
 	div#globalnav-wrapper {
 	    width: 63%; 
@@ -548,6 +571,7 @@ article.tileItem {
 	    float:right; }
 	    
 	}
+
 /* fix mobile */
 @media only screen and (max-width: 767px) {
 	.section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .position-0 {
@@ -595,14 +619,5 @@ article.tileItem {
 		    width: 100%;
 		    text-align: center; }
 	
-}
-/* folder summary view */
-.portaltype-folder #visual-portal-wrapper #portal-columns #portal-column-content .leadImage {
-	display:none;
-}
-#content .callout, .portletStaticText .callout {
-    background: #fff;
-    padding: 1em;
-    border-left: 1em solid #5B7F95;
-    clear: both;
-    color: #002855; }
+} /* end media */
+
