@@ -53,6 +53,7 @@ h1 {
 	 
 }
 #portal-globalnav li a {
+	z-index: 100;
 	font-size:1.2em;
 	padding: 16px 16px 8px 16px;
 	color:#fff;
@@ -293,7 +294,7 @@ h1 {
 	padding-left: 1em;
 	font-size: 2em;
 } */
-.slidecontainer {
+.slideContainer {
 	z-index:50;
 }
 .section-front-page div#visual-portal-wrapper #portal-columns #portal-column-content.position-1\3a 4 {
@@ -485,13 +486,14 @@ padding-right: 10px }
 	border-left: 2px solid #002855;
 }
 /* white break in collection list */
-.portaltype-collection .documentActions{
+.portaltype-collection .documentActions {
 	background-color:#e9e9e9;
 }
 /*hide leadImage on collection type */
 /* .portaltype-collection .leadImage {
     display: none;
 } */
+
 h2.headline {
     padding-bottom: .7em;
 }
