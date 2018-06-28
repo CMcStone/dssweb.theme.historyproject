@@ -4,6 +4,14 @@ i, cite, em, var, address, dfn {
 h1 {
 	letter-spacing:0;
 }
+h1.documentFirstHeading {
+    background-color: #002855;
+    color: #fff;
+    margin-top: -13px;
+    margin-right: -13px;
+    margin-left: -13px;
+    padding: 10px;
+}
 #content {
 	font-size: 100%;
 	margin: 0;
@@ -295,7 +303,10 @@ h1 {
 	font-size: 2em;
 } */
 .slideContainer {
-	z-index:50;
+	z-index:50 !important;
+}
+#content ul, .portletStaticText ul {
+	list-style-type:none;
 }
 .section-front-page div#visual-portal-wrapper #portal-columns #portal-column-content.position-1\3a 4 {
     /* margin-left: -100%;
