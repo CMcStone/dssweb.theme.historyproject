@@ -489,9 +489,9 @@ padding-right: 10px }
 	background-color:#e9e9e9;
 }
 /*hide leadImage on collection type */
-.portaltype-collection .leadImage {
+/* .portaltype-collection .leadImage {
     display: none;
-}
+} */
 h2.headline {
     padding-bottom: .7em;
 }
@@ -575,12 +575,23 @@ article.tileItem {
 
 /* fix mobile */
 @media only screen and (max-width: 767px) {
+	
+	.section-front-page div#visual-portal-wrapper #portal-columns #portal-column-content.position-1\:4 {
+		padding:1em;
+	}
 	.section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .position-0 {
 		width:100%;
 	}
 	
 	.section-front-page div#visual-portal-wrapper div#portal-top .panels .panel-0 .row .position-1\3a 2 {
 		display:none;
+	}
+	.section-front-page div#visual-portal-wrapper #portal-columns #portal-column-content #content {
+		margin-right: 4%;
+	}
+	#portal-top .panels {
+	    padding-left: 1em;
+	    padding-right: 1em;
 	}
 	#globalnav-wrapper .globalnav-toggle {
 	    background-color: #002855; }
@@ -611,6 +622,9 @@ article.tileItem {
 		-webkit-border-radius:0;
 		-moz-border-radius:0;
 	}
+	#portal-globalnav ul li {
+		z-index:100;
+	}
 	.portletStaticText img {
 	    height: auto;
 	    max-width: 20%; }
@@ -620,5 +634,14 @@ article.tileItem {
 		    width: 100%;
 		    text-align: center; }
 	
+   #portal-footer-line .panels .panel .row .cell .content.portlet-2 div .portletStaticText img {
+	   max-width:100%;
+	   margin:auto;
+   }
+   .section-front-page div#visual-portal-wrapper #portal-columns #portal-column-two {
+	   margin-top: 0;
+   }
+   .front-page.right {
+       margin-left: 0; 
 } /* end media */
 
