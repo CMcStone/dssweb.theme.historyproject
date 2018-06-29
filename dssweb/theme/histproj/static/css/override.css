@@ -322,7 +322,14 @@ h1.documentFirstHeading {
 .section-front-page div#visual-portal-wrapper #portal-columns #portal-column-content #content #content-core {
     padding-top:0;
 }
-.section-front-page div#visual-portal-wrapper div#portal-top div#portal-breadcrumbs {
+
+.section-front-page div#visual-portal-wrapper #portal-columns #portal-column-content #content h1.documentFirstHeading {
+	
+    margin-top: -13px;
+	margin-left: -13px;
+	margin-right: -13px;
+}
+/*.section-front-page div#visual-portal-wrapper div#portal-top div#portal-breadcrumbs {
 	display:none;
 }
 .section-front-page div#visual-portal-wrapper #portal-columns #portal-column-content.width-3\3a 4 {
@@ -485,7 +492,7 @@ padding-right: 10px;
 /* Events */
 .leadImage {
 float: left;
-padding-right: 10px }
+padding-right: 20px }
 
 .timezone {
 	display:none;
