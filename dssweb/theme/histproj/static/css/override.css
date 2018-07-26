@@ -580,6 +580,17 @@ article.tileItem {
 	padding: 0.2em 1em 1em 1em
 	
 }
+/* fix FacultyStaffDirectoryList */
+#content .facultyStaffDirectory ul.jobTitle {
+	background: none;
+	font-style:italic;
+}
+.classificationListing h2 {
+    display: none;
+}
+ol.classificationList {
+    display: none;
+}
 /* hide timezone in event portlet */
 .portletEvents .portletItem .portletItemDetails span:first-of-type {
 	display:none;
@@ -665,6 +676,6 @@ article.tileItem {
 	   margin-top: 0;
    }
    .front-page.right {
-       margin-left: 0; 
+       margin-left: 0;
 } /* end media */
 
