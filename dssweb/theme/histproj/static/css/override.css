@@ -582,14 +582,19 @@ article.tileItem {
 }
 /* fix FacultyStaffDirectoryList */
 #content .facultyStaffDirectory ul.jobTitle {
-	background: none;
 	font-style:italic;
+}
+#content .facultyStaffDirectory ul.jobTitle li {
+	background:none;
 }
 .classificationListing h2 {
     display: none;
 }
 ol.classificationList {
     display: none;
+}
+div#portal-column-content {
+	background-color: #e9e9e9;
 }
 /* hide timezone in event portlet */
 .portletEvents .portletItem .portletItemDetails span:first-of-type {
