@@ -176,7 +176,7 @@
         <replace css:theme="#portal-footer-wrapper script" css:content="#portal-footer-wrapper script" />
 		
 		<!-- Analytics -->
- 	   <append css:content="#portal-footer" >
+ 	   <after css:content="#portal-footer" >
 		   <!-- Global site tag (gtag.js) - Google Analytics -->
 		   <script src="https://www.googletagmanager.com/gtag/js?id=UA-1958864-30"></script>
 		   <script>
@@ -186,7 +186,7 @@
 
 		     gtag('config', 'UA-1958864-30');
 		   </script>
-	   </append>
+	   </after>
  			
 		
 
