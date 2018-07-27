@@ -310,6 +310,9 @@ h1.documentFirstHeading {
 #content ul, .portletStaticText ul {
 	list-style-type:none;
 }
+.section-front-page div#visual-portal-wrapper #portal-columns div#portal-column-content {
+    background-color: transparent; }
+	
 .section-front-page div#visual-portal-wrapper #portal-columns #portal-column-content.position-1\3a 4 {
     /* margin-left: -100%;
     margin-top: -215px; */
