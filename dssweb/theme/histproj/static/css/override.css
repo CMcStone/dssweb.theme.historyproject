@@ -7,7 +7,7 @@ h1 {
 h1.documentFirstHeading {
     background-color: #002855;
     color: #fff;
-	margin-top: -13px;
+	margin-top: -13px !important;
     margin-right: -13px;
     margin-left: -13px; 
     padding: 10px;
