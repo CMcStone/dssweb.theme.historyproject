@@ -616,7 +616,7 @@ div#portal-column-content {
 	}
 	#portal-siteactions li a:hover {
 	    color: #ECD47F;
-
+	}
 /* fix mobile */
 @media only screen and (max-width: 767px) {
 	
@@ -637,10 +637,10 @@ div#portal-column-content {
 	    padding-left: 1em;
 	    padding-right: 1em;
 	}
-    #portal-globalnav li a{
+    #portal-globalnav li a {
            z-index:0;
           }
-          #portal-globalnav .plus.open > a{
+          #portal-globalnav .plus.open > a {
            background-color:#ECD47F;
           }
         /*	#globalnav-wrapper .globalnav-toggle {
