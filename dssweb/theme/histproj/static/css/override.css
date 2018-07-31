@@ -318,7 +318,9 @@ h1.documentFirstHeading {
 	width: 63%;
 	margin-left: -65%;
 	padding-left: 20px;
-	margin-top: -40px	;
+	margin-top: -40px;
+	/* hack to foreground menu on front page */
+	z-index:10;
 }
 
 
@@ -331,6 +333,10 @@ h1.documentFirstHeading {
     margin-top: -13px;
 	margin-left: -13px;
 	margin-right: -13px;
+}
+.section-front-page div#visual-portal-wrapper #portal-columns #portal-column-content #content #viewlet-below-content {
+	display:none;
+	
 }
 /*.section-front-page div#visual-portal-wrapper div#portal-top div#portal-breadcrumbs {
 	display:none;
@@ -351,7 +357,7 @@ h1.documentFirstHeading {
 }
 .section-front-page div#visual-portal-wrapper #portal-columns #portal-column-two {
 	margin-left: -65%;
-	margin-top: 120px;
+	margin-top: 140px;
 }
 .section-front-page div#visual-portal-wrapper #portal-columns #portal-column-two #portletmanager-plone-rightcolumn {
 	padding-top: 120px;
