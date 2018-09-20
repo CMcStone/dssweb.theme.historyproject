@@ -611,6 +611,24 @@ div#portal-column-content {
 .state-published {
 	color:#002855 !important;
 }
+/* plone formgen */
+.front-page.right {
+    margin-left: 0; }
+   
+   /* plone formgen */
+   .portaltype-formfolder div div.portal_columns div.portal-column-content div#content {
+	   background-color: #fff;
+   	
+   }
+   .PFGFieldsetWidget legend {
+       font-size: 16px !important;
+       color: white;
+       background-color: #dea427;
+   }
+   .ArchetypesFileWidget {
+       border: 1px solid navy;
+       background-color: #E5E9Ef;
+   }
 @media screen and (min-width: 768px) {
 	div#globalnav-wrapper {
 	    width: 63%; 
@@ -698,21 +716,6 @@ div#portal-column-content {
    .section-front-page div#visual-portal-wrapper #portal-columns #portal-column-two {
 	   margin-top: 0;
    }
-   .front-page.right {
-       margin-left: 0; }
-	   
-	   /* plone formgen */
-	   .portaltype-formfolder div div.portal_columns div.portal-column-content div#content {
-		   background-color: #fff;
-	   	
-	   }
-	   .PFGFieldsetWidget legend {
-	       font-size: 16px !important;
-	       color: white;
-	       background-color: #dea427;
-	   }
-	   .ArchetypesFileWidget {
-	       border: 1px solid navy;
-	       background-color: #E5E9Ef;
-} /* end media */
+  
+ /* end mobile */
 
