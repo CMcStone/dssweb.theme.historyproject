@@ -648,6 +648,7 @@ div#portal-column-content {
           #portal-globalnav .plus.open > a {
            background-color:#ECD47F;
           }
+ 
         /*	#globalnav-wrapper .globalnav-toggle {
   	    background-color: #002855; }
 		
@@ -698,6 +699,20 @@ div#portal-column-content {
 	   margin-top: 0;
    }
    .front-page.right {
-       margin-left: 0;
+       margin-left: 0; }
+	   
+	   /* plone formgen */
+	   .portaltype-formfolder div div.portal_columns div.portal-column-content div#content {
+		   background-color: #fff;
+	   	
+	   }
+	   .PFGFieldsetWidget legend {
+	       font-size: 16px !important;
+	       color: white;
+	       background-color: #dea427;
+	   }
+	   .ArchetypesFileWidget {
+	       border: 1px solid navy;
+	       background-color: #E5E9Ef;
 } /* end media */
 
