@@ -616,10 +616,11 @@ div#portal-column-content {
     margin-left: 0; }
    
    /* plone formgen */
-   .portaltype-formfolder div div.portal_columns div.portal-column-content div#content {
-	   background-color: #fff;
+   .portaltype-formfolder div#visual-portal-wrapper div#portal-columns div#portal-column-content #content {
+       background-color: #fff;
    	
    }
+ 
    .PFGFieldsetWidget legend {
        font-size: 16px !important;
        color: white;
@@ -628,6 +629,7 @@ div#portal-column-content {
    .ArchetypesFileWidget {
        border: 1px solid navy;
        background-color: #E5E9Ef;
+	   padding:15px;
    }
 @media screen and (min-width: 768px) {
 	div#globalnav-wrapper {
