@@ -644,7 +644,9 @@ div#portal-column-content {
 	}
 /* fix mobile */
 @media only screen and (max-width: 767px) {
-	
+        .panels div.width-2\3a 3 {
+    width: 100%;
+}	
 	.section-front-page div#visual-portal-wrapper #portal-columns #portal-column-content.position-1\:4 {
 		padding:1em;
 	}
@@ -662,6 +664,9 @@ div#portal-column-content {
 	    padding-left: 1em;
 	    padding-right: 1em;
 	}
+        dl.portlet.slideshowPortlet {
+            display: none;
+           }
     #portal-globalnav li a {
            z-index:0;
           }
