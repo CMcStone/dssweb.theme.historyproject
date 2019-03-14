@@ -405,8 +405,9 @@ dd.portletItem {
 .ucd-white dl dt.portletHeader a:hover {
     color: #fff !important; }
 
-dd.portletItem {
-	display:block;
+.ucd-white dd.portletItem {
+	background-color: #fff;
+        border: 1px solid #ccc;
 }
 /* portlet vertical-tab  and vertical-tab events */
 .resp-tab-content.resp-tab-content-active img {
