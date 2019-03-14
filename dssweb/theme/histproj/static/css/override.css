@@ -709,7 +709,7 @@ div#portal-column-content {
 	
 	.portletStaticText img {
 	    height: auto;
-	    max-width: 20%; }
+	    max-width: 100%; }
 		
 		.panels div.width-1\3a 3 {
 		    /* width: 31.6667%; */
