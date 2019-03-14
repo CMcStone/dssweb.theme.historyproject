@@ -246,6 +246,13 @@ h1.documentFirstHeading {
 .content.portlet-1 {
     background: none; 
 }
+/* resources page */
+.section-resources #portal-column-content {
+    background-color: #fff;
+}
+.section-resources #portal-column-content #content {
+	background-color: #fff; }
+
 /*Front Page Slideshow */
 .slideshow-frontpage {
 	margin-top: -50px;
