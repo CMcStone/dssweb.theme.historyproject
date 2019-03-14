@@ -390,6 +390,23 @@ h1.documentFirstHeading {
 dd.portletItem {
 	display:block;
 }
+/* UCD White Portlet {
+.ucd-white dl dt.portletHeader {
+	background-color: #002855;
+	color:#fff;
+}
+.ucd-white dl dt.portletHeader a{
+	background-color: #002855;
+	color:#fff;
+    font-size: 0.8em;
+	letter-spacing: 0.06em;
+}
+.ucd-white dl dt.portletHeader a:hover {
+    color: #fff !important; }
+
+dd.portletItem {
+	display:block;
+}
 /* portlet vertical-tab  and vertical-tab events */
 .resp-tab-content.resp-tab-content-active img {
     max-width: 150px;
