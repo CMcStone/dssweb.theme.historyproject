@@ -390,7 +390,8 @@ h1.documentFirstHeading {
 dd.portletItem {
 	display:block;
 }
-/* UCD White Portlet {
+/* UCD White Portlet */
+
 .ucd-white dl dt.portletHeader {
 	background-color: #002855;
 	color:#fff;
