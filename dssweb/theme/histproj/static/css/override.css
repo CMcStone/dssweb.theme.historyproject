@@ -706,6 +706,8 @@ div#portal-column-content {
   	#portal-globalnav ul li {
   		z-index:100;
   	}*/
+	.img-icon {
+		width:20% !important }
 	
 	.portletStaticText img {
 	    height: auto;
